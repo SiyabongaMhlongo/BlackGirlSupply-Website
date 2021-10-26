@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Girl Supply</title>
+    <link rel="Stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="Stylesheet">
+    
+</head>
+<body>
+    <header class="l-header" id="header"> 
+
+        <!--NAVBAR-->
+       <nav class="nav bd-grid">
+           <div class="nav__toggle" id="nav-toggle">
+               <i class="bx bxs-grid"></i>
+           </div>
+
+           <a href="#" class="nav__logo">Black Girl Supply</a>
+
+           <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                   <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
+                   <li class="nav__item"><a href="/#featured" class="nav__link">Featured</a></li>
+                   <li class="nav__item"><a href="makeup" class="nav__link active">Makeup</a></li>
+                   <li class="nav__item"><a href="skincare" class="nav__link">Skincare</a></li>
+                   <li class="nav__item"><a href="haircare" class="nav__link">Haircare</a></li>
+                   <li class="nav__item"><a href="wellness" class="nav__link">Wellness</a></li>
+                   <li class="nav__item"><a href="shop" class="nav__link">Shop</a></li>
+               </ul>
+           </div>
+
+           <div class="cart__info" id="cart-info">
+            <span class="cart__info-icon"><i class="bx bx-cart" ></i></span>
+           <p class="cart__detail"><span class="items__count" id="item-count"></span> - R<span class="item__total" id="item-total"></span></p>        
+        </div>
+
+       </nav>
+   </header>
+
+
+   <main class="l-main">
+
+      <!--HEADER-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+            <div class="home__header-image">
+                <img src="Headers/Makeup/dom-aguiar-dpRdRWaaAik-unsplash-removebg-preview.png" alt="" class="home__img">
+            </div>
+
+            <div class="home__info">
+                <h1 class="home__title">
+                    FACE BEAT FOR THE GODS
+                </h1>
+                <a href="#" class="button">Explore Now</a> 
+            </div>
+        </div>
+    </section>
+
+        <!--FACE-->
+
+        <section class="face section" id="face">
+            <h2 class="section-title">FACE</h2>
+    
+            <div class="face__container bd-grid">
+               
+                <article class="product">
+                    <img src="Img/LYS foundation.png" alt="" class="product__img">
+                    <span class="product__name">Lys Beauty</span>
+                    <span class="product__description">Triple Fix Serum Foundation</span>
+                    <label for="Product__color">Foundation Shade </label>
+                    <select class="product__color" id="product-color" >
+                        <option value="MG5">MG5 - golden almond - golden medium skin with golden undertones</option>
+                        <option value="TN3">TN3 - oak - tan skin with neutral undertones</option>
+                        <option value="TN6">TN6 - honey - tan/olive skin with neutral undertones</option>
+                        <option value="TG6">TG6 - golden honey - tan/olive skin with golden undertones</option>
+                        <option value="TG7">TG7 - tan sand - tan/olive skin with golden undertones</option>
+                        <option value="DG3">DG3 - golden caramel - brown skin with golden undertones</option>
+                        <option value="DN5">DN5 - hazelnut - dark brown skin with neutral undertones</option>
+                        <option value="DN6">DN6 - dark almond - dark brown skin with neutral undertones</option>
+                        <option value="DG6">DG6 - dark golden almond - dark brown skin with golden undertones</option>
+                        <option value="DPG1">DPG1 - mocha - dark brown skin with golden undertones</option>
+                        <option value="DPN1">DPN1 - mocha neutral - dark brown skin with neutral undertones</option>
+                        <option value="DPP1">DPP1 - mocha blush - dark brown skin with pink undertones</option>
+                        <option value="DPP4">DPP4 - coffee blush - rich brown skin with pink undertones</option>
+                        <option value="DPP6">DPP6 - espresso - rich brown skin with pink undertones</option>
+                        <option value="DPN7">DPN7 - deep espresso - rich brown skin with neutral undertones</option>
+                        <option value="DPG7">DPG7 - deep golden espresso - rich brown skin with golden undertones</option>
+                    </select>
+                    <span class="product__price">R <strong class="item__price">302</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/LYS Bronzer.png" alt="" class="product__img">
+                    <span class="product__name">Lys Beauty</span>
+                    <span class="product__description">No Limits Matte Bronzer</span>
+                    <label for="Product__color">Bronzer Shade </label>
+                    <select class="product__color" id="product-color" >
+                        <option value="Medium">Harmony - medium</option>
+                        <option value="Tan"> Courage - tan</option>
+                        <option value="Dark">Strength - dark</option>
+                        <option value="Deep">Worthy - deep</option>
+                    </select>
+                    <span class="product__price">R <strong class="item__price">250</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/LYS Blush.png" alt="" class="product__img">
+                    <span class="product__name">Lys Beauty</span>
+                    <span class="product__description">Higher Standard Satin Matte Cream Blush</span>
+                    <label for="Product__color">Blush Shade </label>
+                    <select class="product__color" id="product-color" >
+                        <option value="Kindness">Kindness - soft peachy nude</option>
+                        <option value="Self Love">Self Love - rosey mauve</option>
+                        <option value="Confident">Confident - pink cinnamon spice</option>
+                        <option value="Passion">Passion - fuchsia pink</option>
+                        <option value="Inspire">Inspire - baked coral</option>
+                        <option value="Empower">Empower - deep berry plum</option>
+                    </select>
+                    <span class="product__price">R <strong class="item__price">219.99</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Rare Beauty Foundation.png" alt="" class="product__img">
+                    <span class="product__name">Rare Beauty</span>
+                    <span class="product__description">Liquid Touch Weightless Foundation</span>
+                    <label for="Product__color">Foundation Shade </label>
+                    <select class="product__color" id="product-color" >
+                        <option value="400W">400W - medium tan with warm neutral undertones</option>
+                        <option value="410N">410N - medium tan with neutral peach undertones</option>
+                        <option value="420N">420N - medium deep with neutral golden undertones</option>
+                        <option value="430W">430W - medium deep with warm olive undertones</option>
+                        <option value="440C">440C - medium deep with cool neutral undertones</option>
+                        <option value="450N">450N - medium deep with neutral peach undertones</option>
+                        <option value="490C">490C - medium deep with cool peach undertones </option>
+                        <option value="520W">520W - deep with warm golden undertones</option>
+                        <option value="530N">530N - deep with neutral red undertones</option>
+                        <option value="550C">550C - deep with cool neutral undertones</option>
+                        <option value="560W">560W - deep with warm neutral undertones</option>
+                        <option value="570N">570N - deep with neutral blue undertones</option>
+                    </select>
+                    <span class="product__price">R <strong class="item__price">400</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+
+                <article class="product">
+                    <img src="Img/Rare Beauty Concelor.png" alt="" class="product__img">
+                    <span class="product__name">Rare Beauty</span>
+                    <span class="product__description">Liquid Touch Brightning Concealor</span>
+                    <label for="Product__color">Concealor Shade </label>
+                    <select class="product__color" id="product-color" >
+                        <option value="430W">430W - medium deep with warm olive undertones</option>
+                        <option value="440C">440C - medium deep with cool neutral undertones</option>
+                        <option value="450N">450N - medium deep with neutral peach undertones</option>
+                        <option value="490C">490C - medium deep with cool peach undertones </option>
+                        <option value="520W">520W - deep with warm golden undertones</option>
+                        <option value="530N">530N - deep with neutral red undertones</option>
+                        <option value="550C">550C - deep with cool neutral undertones</option>
+                        <option value="560W">560W - deep with warm neutral undertones</option>
+                        <option value="570N">570N - deep with neutral blue undertones</option>
+                    </select>
+                    <span class="product__price">R <strong class="item__price">260</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Rare Beauty Blush.png" alt="" class="product__img">
+                    <span class="product__name">Rare Beauty</span>
+                    <span class="product__description">Soft Pinch Liquid Blush</span>
+                    <label for="Product__color">Radient Blush Shade</label>
+                    <select class="product__color" id="product-color" >
+                        <option value="Grateful">Grateful - dewy true red</option>
+                        <option value="Lucky">Lucky - dewy hot pink</option>
+                        <option value="Confident">Confident - pink cinnamon spice</option>
+                        <option value="Joy">Joy - dewy muted peach</option>
+                        <option value="Happy">Happy - dewy cool pink</option>
+                    </select>
+                    <span class="product__price">R <strong class="item__price">280.99</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Milk Powder.png" alt="" class="product__img">
+                    <span class="product__name">Milk Makeup</span>
+                    <span class="product__description">Blur Set Matte Loose Setting Powder</span>
+                    <label for="Product__color">Setting Powder Shade</label>
+                    <select class="product__color" id="product-color" >
+                        <option value="Light">Translucent Light</option>
+                        <option value="Medium">Translucent Medium</option>
+                        <option value="Deep">Translucent Deep</option>
+                    </select>
+                    <span class="product__price">R <strong class="item__price">400</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Laura Mercia Powder.png" alt="" class="product__img">
+                    <span class="product__name">Laura Mercier</span>
+                    <span class="product__description">Translucent Loose Setting Powder</span>
+                    <label for="Product__color">Setting Powder Shade</label>
+                    <select class="product__color" id="product-color" >
+                        <option value="Translucent">Translucent - perfect for very fair to medium skintones</option>
+                        <option value="Honey">Honey - medium skin tones with olive, warm and golden undertones</option>
+                        <option value="Translucent Medium Deep">Translucent Medium Deep - perfect for medium deep to the deepest skintones</option>
+                    </select>
+                    <span class="product__price">R <strong class="item__price">536.99</strong></span>
+                   <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+        
+            </div>
+            </section>
+
+
+
+
+
+        <!--EYES-->
+
+        <section class="eyes section" id="eyes">
+            <h2 class="section-title">EYES</h2>
+    
+            <div class="eyes__container bd-grid">
+               
+                <article class="product">
+                    <img src="Img/Benefit Brow Pencil.png" alt="" class="product__img">
+                    <span class="product__name">Benefit Cosmetics</span>
+                    <span class="product__description">Precisely My Brow Pencil Waterproof Eyebrow Definer</span>
+                    <label for="Product__color"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                    <span class="product__price">R <strong class="item__price">330</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Benefit Gimme Brow.png" alt="" class="product__img">
+                    <span class="product__name">Benefit Cosmetics</span>
+                    <span class="product__description">Brows + Tinted Volumizing Eyebrow Gel</span>
+                    <label for="Product__color"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                    <span class="product__price">R <strong class="item__price">529.99</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Benefit Mascara.png" alt="" class="product__img">
+                    <span class="product__name">Benefit Cosmetics</span>
+                    <span class="product__description">They're Real! Magnet Extreme Lengthening</span>
+                    <label for="Product__color"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                    <span class="product__price">R <strong class="item__price">380</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Huda Beauty Obsessions Eyeshadow.png" alt="" class="product__img">
+                    <span class="product__name">Huda Beauty</span>
+                    <span class="product__description">Nude Obsessions Eyeshadow Palatte</span>
+                    <label for="Product__color"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                    <span class="product__price">R <strong class="item__price">400</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+
+                <article class="product">
+                    <img src="Img/Huda Beauty Pastel Eyeshadow.png" alt="" class="product__img">
+                    <span class="product__name">Huda Beauty</span>
+                    <span class="product__description">Pastel Obsessions Eyeshadow Palatte</span>
+                    <label for="Product__color"></label>
+                    <select class="product__color1" id="product-color">
+                    </select>
+                    <span class="product__price">R <strong class="item__price">400</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Fenty Beauty Eyeshadows.png" alt="" class="product__img">
+                    <span class="product__name">Fenty Beauty</span>
+                    <span class="product__description">Snap Shadow Mix and Match Eyeshadow Palatte</span>
+                    <label for="Product__color">Shadow colors</label>
+                    <select class="product__color" id="product-color" >
+                        <option value="1">1 True Neutrals</option>
+                        <option value="2">2 Cool Neutrals</option>
+                        <option value="3">3 Deep Neutrals</option>
+                        <option value="4">4 Rose</option>
+                        <option value="5">5 Peach</option>
+                        <option value="6">6 Smoky</option>
+                        <option value="7">7 Cadet</option>
+                    </select>
+                    <span class="product__price">R <strong class="item__price">350</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Rare Beauty eyeshaodow.png" alt="" class="product__img">
+                    <span class="product__name">Rare Beauty</span>
+                    <span class="product__description">Discovery Eyeshadow Palatte</span>
+                    <label for="Product__color"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                    <span class="product__price">R <strong class="item__price">399</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+        
+            </div>
+            </section>
+
+
+
+    
+        <!--LIPS-->
+
+     <section class="lips section" id="lips">
+        <h2 class="section-title">LIPS</h2>
+
+        <div class="lips__container bd-grid">
+           
+            <article class="product">
+                <img src="Img/Color pop lux come throu.png" alt="" class="product__img">
+                <span class="product__name">Colourpop</span>
+                <span class="product__description">Lux Gloss Come Throu</span>
+                <label for="Product__color"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                <span class="product__price">R <strong class="item__price">100</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Color pop overnight coral.png" alt="" class="product__img">
+                <span class="product__name">Colourpop</span>
+                <span class="product__description">Lux Gloss Overnight Coral</span>
+                <label for="Product__color"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">100</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Rare Beauty Lipstick.png" alt="" class="product__img">
+                <span class="product__name">Rare Beauty</span>
+                <span class="product__description">Lip Souffle Matte Creme Lipstick</span>
+                <label for="Product__color">Lip shade</label>
+                    <select class="product__color" id="product-color" >
+                        <option value="Courage">Courage - nude mauve</option>
+                        <option value="Brave">Brave - muted terracotta</option>
+                        <option value="Fearless">Fearless - deep mauve rose</option>
+                        <option value="Thrilling">Thrilling - true brown</option>
+                        <option value="Motivate">Motivate - watermelon pink</option>
+                        <option value="Transform">Transform - deep wine</option>
+                        <option value="Inspire">Inspire - bright red</option>
+                    </select>
+                <span class="product__price">R <strong class="item__price">280</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Rare Beauty Lip bundle.png" alt="" class="product__img">
+                <span class="product__name">Rare Beauty</span>
+                <span class="product__description">Mini Souffle Matte Cream Lipstick Duo</span>
+                <label for="Product__color">Lip Shade</label>
+                <select class="product__color" id="product-color" >
+                    <option value="Inspire/ Fearless">Inspire/ Fearless - bright red matte/ deep mauve rose</option>
+                </select>
+                <span class="product__price">R <strong class="item__price">206</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Fenty Beauty Mini gloss bomb.png" alt="" class="product__img">
+                <span class="product__name">Fenty Beauty</span>
+                <span class="product__description">Gloss Bomb Universal Lip Luminizer</span>
+                <label for="Product__color">Lip shade</label>
+                <select class="product__color" id="product-color" >
+                    <option value="Fenty Glow">Fenty Glow - shimmering rose nude</option>
+                    <option value="FU$$Y">FU$$Y - shimmering pink</option>
+                    <option value="Diamond Milk">Diamond Milk - shimmering pearl</option>
+                    <option value="Hot Chocolit">Hot Chocolit - shimmering rich brown</option>
+                    <option value="$weetmouth">$weetmouth - shimmering soft pink</option>
+                    <option value="Glass Slipper">Glass Slipper - clear</option>
+                    
+                </select>
+                <span class="product__price">R <strong class="item__price">300</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Huda Beauty Cream Lipstick.png" alt="" class="product__img">
+                <span class="product__name">Huda Beauty</span>
+                <span class="product__description">Demi Matte Cream Liquid Liptick</span>
+                <label for="Product__color">Lip shade</label>
+                    <select class="product__color" id="product-color" >
+                        <option value="Feminist">Feminist - an eye-catching pink nude</option>
+                        <option value="Révolutionnaire">Révolutionnaire - a trailblazing deep brown</option>
+                        <option value="Sheikha">Sheikha - a sumptuous deep rose shade</option>
+                        <option value="Day Slayer">Day Slayer - a versatile day-to-night nude</option>
+                        <option value="Boy Collector">Boy Collector - an alluring statement red</option>
+                        <option value="Mogul">Mogul - a vintage nude-rose shade</option>
+                        <option value="Bawse">Bawse - a domineering burgundy</option>
+                    </select>
+                <span class="product__price">R <strong class="item__price">300</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+
+    
+        </div>
+        </section>
+
+
+
+
+    
+
+     <!--MAKE UP BRUSHES-->
+
+     <section class="makeuptools section" id="makeuptools">
+        <h2 class="section-title">MAKEUP BRUSHES AND TOOLS</h2>
+
+        <div class="makeuptools__container bd-grid">
+           
+            <article class="product">
+                <img src="Img/Unicorn_MakeUp_Brush_Collection-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">UNICORN</span>
+                <span class="product__description">Makeup Brush Collection</span>
+                <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                <span class="product__price">R <strong class="item__price">249.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Mermaid_MakeUp_Brush_Collection-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">MERMAID</span>
+                <span class="product__description">Makeup Brush Collection</span>
+                <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                <span class="product__price">R <strong class="item__price">199.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Gradient__MakeUp_Brush_Collection-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">GRADIENT</span>
+                <span class="product__description">Makeup Brush Collection</span>
+                <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                <span class="product__price">R <strong class="item__price">149.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Beauty_Sponges-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">BEAUTY SPONGES</span>
+                <span class="product__description"></span>
+                <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                <span class="product__price">R <strong class="item__price">49.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+    
+        </div>
+        </section>
+
+
+       
+
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__box">
+                <h3 class="footer__title">Black Girl Supply</h3>
+                <p class="footer__description">New collection 2021</p>
+            </div>
+    
+            <div class="footer__box">
+                <h3 class="footer__title">EXPLORE</h3>
+                <ul>
+                <li><a href="/" class="footer__link">Home</a></li>
+                <li><a href="/#featured" class="footer__link">Featured</a></li>
+                <li><a href="/#makeup" class="footer__link">MAKEUP</a></li>
+                <li><a href="/#skincare" class="footer__link">SKINCARE</a></li>
+                <li><a href="/#haircare" class="footer__link">HAIRCARE</a></li>
+
+                </ul>
+            </div>
+
+    <div class="footer__box">
+        <h3 class="footer__title">SUPPORT</h3>
+        <ul>
+            <li><a href="#contact" class="footer__link">Contact form</a></li>
+            <li><a href="#login" class="footer__link">Login</a></li>
+        </ul>
+    </div>
+
+    <div class="footer__box">
+        <a href="#" class="footer__social"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer__social"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="#" class="footer__social"><i class="bx bxl-twitter" ></i></a>
+        <a href="#" class="footer__social"><i class="bx bxl-google"></i></a>
+    </div>
+
+   </div>
+
+
+  <p class="footer__copy">&#169; 2021 Siyabonga Mhlongo, All right reserved</p>
+
+   </footer>
+
+        <!--CART ITEM-->
+        <div class="cart" id="cart">
+
+            <!--HTML TEMPLETE THAT BECOMES JS TEMPLETE-->
+          <!--<div class="cart__item">
+                <img src="Img Cart/LYS foundation.png" class="item__img" id="item-img" alt="">
+                <div class="item__text" id="item-text">
+                    <p class="product__name" id="cart-item-name">Cart Item</p>
+                    <span class="product__description" id="cart-item-description">Black Game Royal</span><br>
+                    <option class="product__value" id="cart-item-value" value="Feminist">Feminist</option>
+                    <input class="product__quantity" id="cart-item-quantity" type="number" value="1">
+                    <span class="product__cartprice">R </span><span class="product__cartprice" id="cart-item-price">1973.94</span>
+                    <span href="#" class="item__remove" id="cart-item-remove"><i class="bx bxs-trash-alt"></i></span>
+              </div>      
+           </div>-->  
+          
+
+           <div class="cart-total__container">
+                <span >Total</span>
+                <span>R <strong class="cart__total"id="cart-total">0</strong></span>
+            </div>
+    
+            <div class="cart-buttons__container">
+                <a href="#" id="checkout-button" class="checkout__button">Checkout</a>   
+            </div>
+        </div>      
+
+
+
+   </main>
+
+   <script src="https://js.yoco.com/sdk/v1/yoco-sdk-web.js"></script>
+   <script>
+       var yocoPublicKey = '<%= yocoPublicKey %>'
+   </script>
+   <script src="script.js"></script>
+   <script src="https://js.yoco.com/sdk/v1/yoco-sdk-web.js"></script>
+
+    
+</body>
+</html>

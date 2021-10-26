@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Girl Supply</title>
+    <link rel="Stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="Stylesheet">
+</head>
+<body>
+
+    <header class="l-header" id="header"> 
+
+        <!--NAVBAR-->
+       <nav class="nav bd-grid">
+           <div class="nav__toggle" id="nav-toggle">
+               <i class="bx bxs-grid"></i>
+           </div>
+
+           <a href="#" class="nav__logo">Black Girl Supply</a>
+
+           <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                   <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
+                   <li class="nav__item"><a href="/#featured" class="nav__link">Featured</a></li>
+                   <li class="nav__item"><a href="makeup" class="nav__link">Makeup</a></li>
+                   <li class="nav__item"><a href="skincare" class="nav__link">Skincare</a></li>
+                   <li class="nav__item"><a href="haircare" class="nav__link">Haircare</a></li>
+                   <li class="nav__item"><a href="wellness" class="nav__link">Wellness</a></li>
+                   <li class="nav__item"><a href="shop" class="nav__link active">Shop</a></li>
+               </ul>
+           </div>
+
+       
+           <div class="cart__info" id="cart-info">
+            <span class="cart__info-icon"><i class="bx bx-cart" ></i></span>
+           <p class="cart__detail"><span class="items__count" id="item-count"></span> - R<span class="item__total" id="item-total"></span></p>        
+        </div>
+
+       </nav>
+   </header>
+
+
+
+ <!--MAKEUP-->
+   <section class="makeup section" id="makeup">
+    <h2 class="section-title">MAKE UP</h2>
+
+    <div class="makeup__container bd-grid">
+       
+        <article class="product">
+            <img src="Img/LYS foundation.png" alt="" class="product__img">
+            <span class="product__name">Lys Beauty</span>
+            <span class="product__description">Triple Fix Serum Foundation</span>
+            <label for="Product__color">Foundation Shade </label>
+            <select class="product__color" id="product-color" >
+                <option value="MG5">MG5 - golden almond - golden medium skin with golden undertones</option>
+                <option value="TN3">TN3 - oak - tan skin with neutral undertones</option>
+                <option value="TN6">TN6 - honey - tan/olive skin with neutral undertones</option>
+                <option value="TG6">TG6 - golden honey - tan/olive skin with golden undertones</option>
+                <option value="TG7">TG7 - tan sand - tan/olive skin with golden undertones</option>
+                <option value="DG3">DG3 - golden caramel - brown skin with golden undertones</option>
+                <option value="DN5">DN5 - hazelnut - dark brown skin with neutral undertones</option>
+                <option value="DN6">DN6 - dark almond - dark brown skin with neutral undertones</option>
+                <option value="DG6">DG6 - dark golden almond - dark brown skin with golden undertones</option>
+                <option value="DPG1">DPG1 - mocha - dark brown skin with golden undertones</option>
+                <option value="DPN1">DPN1 - mocha neutral - dark brown skin with neutral undertones</option>
+                <option value="DPP1">DPP1 - mocha blush - dark brown skin with pink undertones</option>
+                <option value="DPP4">DPP4 - coffee blush - rich brown skin with pink undertones</option>
+                <option value="DPP6">DPP6 - espresso - rich brown skin with pink undertones</option>
+                <option value="DPN7">DPN7 - deep espresso - rich brown skin with neutral undertones</option>
+                <option value="DPG7">DPG7 - deep golden espresso - rich brown skin with golden undertones</option>
+            </select>
+            <span class="product__price">R <strong class="item__price">302</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/LYS Bronzer.png" alt="" class="product__img">
+            <span class="product__name">Lys Beauty</span>
+            <span class="product__description">No Limits Matte Bronzer</span>
+            <label for="Product__color">Bronzer Shade </label>
+            <select class="product__color" id="product-color" >
+                <option value="Medium">Harmony - medium</option>
+                <option value="Tan"> Courage - tan</option>
+                <option value="Dark">Strength - dark</option>
+                <option value="Deep">Worthy - deep</option>
+            </select>
+            <span class="product__price">R <strong class="item__price">250</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/LYS Blush.png" alt="" class="product__img">
+            <span class="product__name">Lys Beauty</span>
+            <span class="product__description">Higher Standard Satin Matte Cream Blush</span>
+            <label for="Product__color">Blush Shade </label>
+            <select class="product__color" id="product-color" >
+                <option value="Kindness">Kindness - soft peachy nude</option>
+                <option value="Self Love">Self Love - rosey mauve</option>
+                <option value="Confident">Confident - pink cinnamon spice</option>
+                <option value="Passion">Passion - fuchsia pink</option>
+                <option value="Inspire">Inspire - baked coral</option>
+                <option value="Empower">Empower - deep berry plum</option>
+            </select>
+            <span class="product__price">R <strong class="item__price">219,99</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/Rare Beauty Foundation.png" alt="" class="product__img">
+            <span class="product__name">Rare Beauty</span>
+            <span class="product__description">Liquid Touch Weightless Foundation</span>
+            <label for="Product__color">Foundation Shade </label>
+            <select class="product__color" id="product-color" >
+                <option value="400W">400W - medium tan with warm neutral undertones</option>
+                <option value="410N">410N - medium tan with neutral peach undertones</option>
+                <option value="420N">420N - medium deep with neutral golden undertones</option>
+                <option value="430W">430W - medium deep with warm olive undertones</option>
+                <option value="440C">440C - medium deep with cool neutral undertones</option>
+                <option value="450N">450N - medium deep with neutral peach undertones</option>
+                <option value="490C">490C - medium deep with cool peach undertones </option>
+                <option value="520W">520W - deep with warm golden undertones</option>
+                <option value="530N">530N - deep with neutral red undertones</option>
+                <option value="550C">550C - deep with cool neutral undertones</option>
+                <option value="560W">560W - deep with warm neutral undertones</option>
+                <option value="570N">570N - deep with neutral blue undertones</option>
+            </select>
+            <span class="product__price">R <strong class="item__price">400</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/Rare Beauty Concelor.png" alt="" class="product__img">
+            <span class="product__name">Rare Beauty</span>
+            <span class="product__description">Liquid Touch Brightning Concealor</span>
+            <label for="Product__color">Concealor Shade </label>
+            <select class="product__color" id="product-color" >
+                <option value="430W">430W - medium deep with warm olive undertones</option>
+                <option value="440C">440C - medium deep with cool neutral undertones</option>
+                <option value="450N">450N - medium deep with neutral peach undertones</option>
+                <option value="490C">490C - medium deep with cool peach undertones </option>
+                <option value="520W">520W - deep with warm golden undertones</option>
+                <option value="530N">530N - deep with neutral red undertones</option>
+                <option value="550C">550C - deep with cool neutral undertones</option>
+                <option value="560W">560W - deep with warm neutral undertones</option>
+                <option value="570N">570N - deep with neutral blue undertones</option>
+            </select>
+            <span class="product__price">R <strong class="item__price">260</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/Rare Beauty Blush.png" alt="" class="product__img">
+            <span class="product__name">Rare Beauty</span>
+            <span class="product__description">Soft Pinch Liquid Blush</span>
+            <label for="Product__color">Radient Blush Shade</label>
+            <select class="product__color" id="product-color" >
+                <option value="Grateful">Grateful - dewy true red</option>
+                <option value="Lucky">Lucky - dewy hot pink</option>
+                <option value="Confident">Confident - pink cinnamon spice</option>
+                <option value="Joy">Joy - dewy muted peach</option>
+                <option value="Happy">Happy - dewy cool pink</option>
+            </select>
+            <span class="product__price">R <strong class="item__price">280.99</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/Milk Powder.png" alt="" class="product__img">
+            <span class="product__name">Milk Makeup</span>
+            <span class="product__description">Blur Set Matte Loose Setting Powder</span>
+            <label for="Product__color">Setting Powder Shade</label>
+            <select class="product__color" id="product-color" >
+                <option value="Light">Translucent Light</option>
+                <option value="Medium">Translucent Medium</option>
+                <option value="Deep">Translucent Deep</option>
+            </select>
+            <span class="product__price">R <strong class="item__price">400</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/Laura Mercia Powder.png" alt="" class="product__img">
+            <span class="product__name">Laura Mercier</span>
+            <span class="product__description">Translucent Loose Setting Powder</span>
+            <label for="Product__color">Setting Powder Shade</label>
+            <select class="product__color" id="product-color" >
+                <option value="Translucent">Translucent - perfect for very fair to medium skintones</option>
+                <option value="Honey">Honey - medium skin tones with olive, warm and golden undertones</option>
+                <option value="Translucent Medium Deep">Translucent Medium Deep - perfect for medium deep to the deepest skintones</option>
+            </select>
+            <span class="product__price">R <strong class="item__price">536.99</strong></span>
+           <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/Benefit Brow Pencil.png" alt="" class="product__img">
+            <span class="product__name">Benefit Cosmetics</span>
+            <span class="product__description">Precisely My Brow Pencil Waterproof Eyebrow Definer</span>
+            <label for="Product__color"></label>
+            <select class="product__color1" id="product-color" >
+            </select>
+            <span class="product__price">R <strong class="item__price">330</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/Benefit Gimme Brow.png" alt="" class="product__img">
+            <span class="product__name">Benefit Cosmetics</span>
+            <span class="product__description">Brows + Tinted Volumizing Eyebrow Gel</span>
+            <label for="Product__color"></label>
+            <select class="product__color1" id="product-color" >
+            </select>
+            <span class="product__price">R <strong class="item__price">529.99</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/Benefit Mascara.png" alt="" class="product__img">
+            <span class="product__name">Benefit Cosmetics</span>
+            <span class="product__description">They're Real! Magnet Extreme Lengthening</span>
+            <label for="Product__color"></label>
+            <select class="product__color1" id="product-color" >
+            </select>
+            <span class="product__price">R <strong class="item__price">380</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/Huda Beauty Obsessions Eyeshadow.png" alt="" class="product__img">
+            <span class="product__name">Huda Beauty</span>
+            <span class="product__description">Nude Obsessions Eyeshadow Palatte</span>
+            <label for="Product__color"></label>
+            <select class="product__color1" id="product-color" >
+            </select>
+            <span class="product__price">R <strong class="item__price">400</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/Huda Beauty Pastel Eyeshadow.png" alt="" class="product__img">
+            <span class="product__name">Huda Beauty</span>
+            <span class="product__description">Pastel Obsessions Eyeshadow Palatte</span>
+            <label for="Product__color"></label>
+            <select class="product__color1" id="product-color">
+            </select>
+            <span class="product__price">R <strong class="item__price">400</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+        <article class="product">
+            <img src="Img/Fenty Beauty Eyeshadows.png" alt="" class="product__img">
+            <span class="product__name">Fenty Beauty</span>
+            <span class="product__description">Snap Shadow Mix and Match Eyeshadow Palatte</span>
+            <label for="Product__color">Shadow colors</label>
+            <select class="product__color" id="product-color" >
+                <option value="1">1 True Neutrals</option>
+                <option value="2">2 Cool Neutrals</option>
+                <option value="3">3 Deep Neutrals</option>
+                <option value="4">4 Rose</option>
+                <option value="5">5 Peach</option>
+                <option value="6">6 Smoky</option>
+                <option value="7">7 Cadet</option>
+            </select>
+            <span class="product__price">R <strong class="item__price">350</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>>
+        </article>
+
+        <article class="product">
+            <img src="Img/Rare Beauty eyeshaodow.png" alt="" class="product__img">
+            <span class="product__name">Rare Beauty</span>
+            <span class="product__description">Discovery Eyeshadow Palatte</span>
+            <label for="Product__color"></label>
+            <select class="product__color1" id="product-color" >
+            </select>
+            <span class="product__price">R <strong class="item__price">399</strong></span>
+            <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+        </article>
+
+
+            <article class="product">
+                <img src="Img/Color pop lux come throu.png" alt="" class="product__img">
+                <span class="product__name">Colourpop</span>
+                <span class="product__description">Lux Gloss Come Throu</span>
+                <label for="Product__color"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                <span class="product__price">R <strong class="item__price">100</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Color pop overnight coral.png" alt="" class="product__img">
+                <span class="product__name">Colourpop</span>
+                <span class="product__description">Lux Gloss Overnight Coral</span>
+                <label for="Product__color"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">100</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Rare Beauty Lipstick.png" alt="" class="product__img">
+                <span class="product__name">Rare Beauty</span>
+                <span class="product__description">Lip Souffle Matte Creme Lipstick</span>
+                <label for="Product__color">Lip shade</label>
+                    <select class="product__color" id="product-color" >
+                        <option value="Courage">Courage - nude mauve</option>
+                        <option value="Brave">Brave - muted terracotta</option>
+                        <option value="Fearless">Fearless - deep mauve rose</option>
+                        <option value="Thrilling">Thrilling - true brown</option>
+                        <option value="Motivate">Motivate - watermelon pink</option>
+                        <option value="Transform">Transform - deep wine</option>
+                        <option value="Inspire">Inspire - bright red</option>
+                    </select>
+                <span class="product__price">R <strong class="item__price">280</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Rare Beauty Lip bundle.png" alt="" class="product__img">
+                <span class="product__name">Rare Beauty</span>
+                <span class="product__description">Mini Souffle Matte Cream Lipstick Duo</span>
+                <label for="Product__color">Lip Shade</label>
+                <select class="product__color" id="product-color" >
+                    <option value="Inspire/ Fearless">Inspire/ Fearless - bright red matte/ deep mauve rose</option>
+                </select>
+                <span class="product__price">R <strong class="item__price">206</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Fenty Beauty Mini gloss bomb.png" alt="" class="product__img">
+                <span class="product__name">Fenty Beauty</span>
+                <span class="product__description">Gloss Bomb Universal Lip Luminizer</span>
+                <label for="Product__color">Lip shade</label>
+                <select class="product__color" id="product-color" >
+                    <option value="Fenty Glow">Fenty Glow - shimmering rose nude</option>
+                    <option value="FU$$Y">FU$$Y - shimmering pink</option>
+                    <option value="Diamond Milk">Diamond Milk - shimmering pearl</option>
+                    <option value="Hot Chocolit">Hot Chocolit - shimmering rich brown</option>
+                    <option value="$weetmouth">$weetmouth - shimmering soft pink</option>
+                    <option value="Glass Slipper">Glass Slipper - clear</option>
+                    
+                </select>
+                <span class="product__price">R <strong class="item__price">300</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Huda Beauty Cream Lipstick.png" alt="" class="product__img">
+                <span class="product__name">Huda Beauty</span>
+                <span class="product__description">Demi Matte Cream Liquid Liptick</span>
+                <label for="Product__color">Lip shade</label>
+                    <select class="product__color" id="product-color" >
+                        <option value="Feminist">Feminist - an eye-catching pink nude</option>
+                        <option value="Révolutionnaire">Révolutionnaire - a trailblazing deep brown</option>
+                        <option value="Sheikha">Sheikha - a sumptuous deep rose shade</option>
+                        <option value="Day Slayer">Day Slayer - a versatile day-to-night nude</option>
+                        <option value="Boy Collector">Boy Collector - an alluring statement red</option>
+                        <option value="Mogul">Mogul - a vintage nude-rose shade</option>
+                        <option value="Bawse">Bawse - a domineering burgundy</option>
+                    </select>
+                <span class="product__price">R <strong class="item__price">300</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+
+    </div>
+    </section>
+
+
+     <!--SKINCARE-->
+    <section class="skincare section" id="skincare">
+        <h2 class="section-title">SKINCARE</h2>
+
+        <div class="skincare__container bd-grid">
+            <article class="product">
+                <img src="Img/About_That_Time_I_Fell_in_Love_With_a_Cleansing_Balm___Don_t_Judge_Me__OK__-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">GLOW RECIPE</span>
+                <span class="product__description">Papaya Enzyme Cleansing Balm</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">443.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Alya_Skin_Foaming_Micellar_Cleanser-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">ALYA SKIN</span>
+                <span class="product__description">Foaming Micellar Cleanser</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">276.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Dripping_in__glow__power____-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">MA:NYO</span>
+                <span class="product__description">Pure CLeansing Oil</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">361.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/GLOSSYBOX_Deep_Cleansing_cream-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">GLOSSYBOX</span>
+                <span class="product__description">Deep Cleansing Cream</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">235.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/GLOSSYBOX_Gentle_Foaming_Cleanser_100ml-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">GLOSSYBOX</span>
+                <span class="product__description">Gentle Foaming Cleanser</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">235</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Your_Favorite_Insta-Friendly_Skincare_Brand_Finally_Has_A_Cleanser-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">HERBIVORE</span>
+                <span class="product__description">Pink Cloud Creamy Jelly Cleanser</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">332</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/GLOSSYBOX_Moisturiser-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">GLOSSYBOX</span>
+                <span class="product__description">3 in 1 Rich Moisturiser</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">346.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Eye_Cream_for_Dry_Skin___Squalane_+_Marine_Algae_Eye_Cream-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">BIOSSANCE</span>
+                <span class="product__description">Squalane and Marine Algae Eyecream</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">748.46</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Stylists_-_Betim_Balaman_-_Cosmetics-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">BOSCIA</span>
+                <span class="product__description">Cactus Water Moisturiser</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">528.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/FRenty_Skin_Review_2021__Best_Products_From_Rihanna_s_Skincare_Line-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">FENTY SKIN</span>
+                <span class="product__description">Hydrovisor SPF</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">485.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Aly Skin Australian_Native_Berries_Moisturiser__Single-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">ALYA SKIN</span>
+                <span class="product__description">Australian Native Berries Moisturiser</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">275.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Stephanie_Dinkel__Photographer___Superbe___Connecting_fashion_talents-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">HERBIVORE</span>
+                <span class="product__description">Pink Cloud Rosewater Moisture Creme</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color">
+                </select>
+                <span class="product__price">R <strong class="item__price">665</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+               <article class="product">
+                    <img src="Img/Alya_Skin_Vitamin_C_Supercharged_Serum-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">ALYA SKIN</span>
+                    <span class="product__description">Vitamin C Supercharge Serum</span>
+                    <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color">
+                    </select>
+                    <span class="product__price">R <strong class="item__price">414</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Bakuchiol_Retinol_Alternative_Serum-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">HERBIVORE</span>
+                    <span class="product__description">Bakuchiol Retinol Alternative Serum</span>
+                    <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color">
+                    </select>
+                    <span class="product__price">R <strong class="item__price">748</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Glow_Recipe_Pineapple_C_Bright_Serum-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">GLOW RECIPE</span>
+                    <span class="product__description">Pineapple  C Bright Serum</span>
+                    <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color">
+                    </select>
+                    <span class="product__price">R <strong class="item__price">679</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Glow_Recipe_Watermelon_Glow_PHA+BHA_Pore-Tight_Toner-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">GLOW RECIPE</span>
+                    <span class="product__description">Watermelon Glow PHA + BHA Toner</span>
+                    <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color">
+                    </select>
+                    <span class="product__price">R <strong class="item__price">471</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Pestle___Mortar_Hyaluronic_Serum-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">PESTLE & MORTAR</span>
+                    <span class="product__description">Pure Hyaluronic Serum</span>
+                    <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color">
+                    </select>
+                    <span class="product__price">R <strong class="item__price">728.99</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Summer_Fridays__New_Pumpkin_Face_Mask_Is_Bound_To_Sell_Out_Soon-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">SUMMER FRIDAYS</span>
+                    <span class="product__description">R + R Mask Glow</span>
+                    <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color">
+                    </select>
+                    <span class="product__price">R <strong class="item__price">1199</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+    
+                <article class="product">
+                    <img src="Img/Summer_Fridays_Overtime_mask-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">SUMMER FRIDAYS</span>
+                    <span class="product__description">Overtime Mask Exfoliate</span>
+                    <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color">
+                    </select>
+                    <span class="product__price">R <strong class="item__price">665</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+        </div>
+        </section>
+
+
+         <!--HAIRCARE-->
+
+        <section class="haircare section" id="haircare">
+            <h2 class="section-title">HAIRCARE</h2>
+
+            <div class="haircare__container bd-grid">
+            <article class="product">
+                <img src="Img/Melanin_HairCare_Shampoo-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">MELANIN HAIRCARE</span>
+                <span class="product__description">African Black Soap Shampoo</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">277.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Mielle_Organics_Shampoo_and_condition_with_a_leave_in-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">MEILLE ORGANICS</span>
+                <span class="product__description">Pomergranate Shampoo, Conditioner and Leave-in Bundle</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">454.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Monday_shampoo_and_conditioner_2-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">MONDAY</span>
+                <span class="product__description">Shampoo and Conditioner Bundle</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">195.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Shea_Moisture_Manuka_Honey___Mafura_Oil_Intensive_Hydration_Shampoo_+_Conditioner_+_Masque__1_-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">SHEA MOISTURE</span>
+                <span class="product__description">Manuka and Honey Shampoo and Conditioner</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">589.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Seen_Skincare_Shampoo_and_Conditioner-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">SEEN</span>
+                <span class="product__description">Shampoo and Conditioner Bundle</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">696.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/ECO_Styler_Gel_Coconut_Oil___Castor_and_Flaxseed_Oil_Gel-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">ECOSTYLER GEL</span>
+                <span class="product__description">Coconut Oil / Castor Oil</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">79.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Marble_Lab_Hair_Butter-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">MARBLE LAB</span>
+                <span class="product__description">Whipped Shea Butter</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">250</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Mielle_Organics__Pomegranate_and_Honey_Curl_Smoothie_12oz-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">Mielle Organics</span>
+                <span class="product__description">Pomegranate Curl Smoothie</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">295.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Olaplex_Hair_Treatment-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">OLAPLEX</span>
+                <span class="product__description">Hair Treatment</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">1500</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Pattern_Beauty-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">PATTERN BEAUTY</span>
+                <span class="product__description">Serum + Mask Treatment</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">649.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+
+            <article class="product">
+                <img src="Img/Melanin_Hair_care-removebg-preview.png" alt="" class="product__img">
+                <span class="product__name">MELANIN HAIRCARE</span>
+                <span class="product__description">Styling Bundle</span>
+                <label for="Product__color1"></label>
+                <select class="product__color1" id="product-color" >
+                </select>
+                <span class="product__price">R <strong class="item__price">751.99</strong></span>
+                <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+            </article>
+    
+      </div>
+    
+         </section>
+
+
+
+
+   <!--FOOTER-->
+   <footer class="footer section">
+    <div class="footer__container bd-grid">
+        <div class="footer__box">
+            <h3 class="footer__title">Black Girl Supply</h3>
+            <p class="footer__description">New collection 2021</p>
+        </div>
+
+        <div class="footer__box">
+            <h3 class="footer__title">EXPLORE</h3>
+            <ul>
+                <li><a href="/" class="footer__link">Home</a></li>
+                <li><a href="/#featured" class="footer__link">Featured</a></li>
+                <li><a href="/#makeup" class="footer__link">MAKEUP</a></li>
+                <li><a href="/#skincare" class="footer__link">SKINCARE</a></li>
+                <li><a href="/#haircare" class="footer__link">HAIRCARE</a></li>
+
+            </ul>
+        </div>
+
+<div class="footer__box">
+    <h3 class="footer__title">SUPPORT</h3>
+    <ul>
+        <li><a href="#contact" class="footer__link">Contact form</a></li>
+        <li><a href="#login" class="footer__link">Login</a></li>
+    </ul>
+</div>
+
+<div class="footer__box">
+    <a href="#" class="footer__social"><i class="bx bxl-facebook"></i></a>
+    <a href="#" class="footer__social"><i class="bx bxl-instagram-alt"></i></a>
+    <a href="#" class="footer__social"><i class="bx bxl-twitter" ></i></a>
+    <a href="#" class="footer__social"><i class="bx bxl-google"></i></a>
+</div>
+
+</div>
+
+
+<p class="footer__copy">&#169; 2021 Siyabonga Mhlongo, All right reserved</p>
+
+</footer>
+
+<!--CART ITEM-->
+<div class="cart" id="cart">
+
+    <!--HTML TEMPLETE THAT BECOMES JS TEMPLETE-->
+  <!--<div class="cart__item">
+        <img src="Img Cart/LYS foundation.png" class="item__img" id="item-img" alt="">
+        <div class="item__text" id="item-text">
+            <p class="product__name" id="cart-item-name">Cart Item</p>
+            <span class="product__description" id="cart-item-description">Black Game Royal</span><br>
+            <option class="product__value" id="cart-item-value" value="Feminist">Feminist</option>
+            <input class="product__quantity" id="cart-item-quantity" type="number" value="1">
+            <span class="product__cartprice">R </span><span class="product__cartprice" id="cart-item-price">1973.94</span>
+            <span href="#" class="item__remove" id="cart-item-remove"><i class="bx bxs-trash-alt"></i></span>
+      </div>      
+   </div>-->  
+  
+
+   <div class="cart-total__container">
+        <span >Total</span>
+        <span>R <strong class="cart__total"id="cart-total">0</strong></span>
+    </div>
+
+    <div class="cart-buttons__container">
+        <a href="#" id="checkout-button" class="checkout__button">Checkout</a>   
+    </div>
+</div>      
+
+<script src="https://js.yoco.com/sdk/v1/yoco-sdk-web.js"></script>
+<script>
+    var yocoPublicKey = '<%= yocoPublicKey %>'
+</script>
+    <script src="script.js"></script>
+    <script src="https://js.yoco.com/sdk/v1/yoco-sdk-web.js"></script>
+
+</body>
+</html>

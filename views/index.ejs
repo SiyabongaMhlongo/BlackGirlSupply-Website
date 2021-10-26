@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Girl Supply</title>
+    <link rel="Stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="Stylesheet">
+</head>
+
+<body>
+
+
+    <header class="l-header" id="header"> 
+
+         <!--NAVBAR-->
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bxs-grid"></i>
+            </div>
+
+            <a href="#" class="nav__logo">Black Girl Supply</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#featured" class="nav__link">Featured</a></li>
+                    <li class="nav__item"><a href="makeup" class="nav__link">Makeup</a></li>
+                    <li class="nav__item"><a href="skincare" class="nav__link">Skincare</a></li>
+                    <li class="nav__item"><a href="haircare" class="nav__link">Haircare</a></li>
+                    <li class="nav__item"><a href="wellness" class="nav__link">Wellness</a></li>
+                    <li class="nav__item"><a href="shop" class="nav__link">Shop</a></li>
+                </ul>
+            </div>
+
+
+        <div class="cart__info" id="cart-info">
+            <span class="cart__info-icon"><i class="bx bx-cart" ></i></span>
+           <p class="cart__detail"><span class="items__count" id="item-count"></span> - R<span class="item__total" id="item-total"></span></p>        
+        </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        
+        <!--HOMEPAGE-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__header-image">
+                    <img src="Headers/Header Image/oladimeji-odunsi-aU_eOcelLhQ-unsplash-removebg-preview.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__info">
+                    <span class="home__new">New in</span>
+                    <h1 class="home__title">Luxury Beauty for Black Women</h1>
+                    <p class="home__description">Explore new skincare, makeup and haircare products!</p>
+                    <a href="#" class="button">Explore Now</a> 
+                </div>
+            </div>
+        </section>
+
+
+        <!--FEAUTURED-->
+
+        <section class="feautured section" id="featured">
+            <h2 class="section-title">FEATURED</h2>
+
+            <div class="featured__container bd-grid">
+                <article class="product">
+                    <div class="product__sale">SALE</div>
+                    <img src="Img/Tom_Ford_Private_Blend_Bitter_Peach_Eau_De_Pafum__Size_-_1_7_oz-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">TOM FORD</span>
+                    <span class="product__description">Private Blend Bitter Peach</span>
+                    <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                    <span class="product__price">R <strong class="item__price">5499</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+
+                <article class="product">
+                    <div class="product__sale">SALE</div>
+                    <img src="Img/Gucci_Bloom_-_La_balade_au_cœur_d_un_jardin_luxuriant-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">GUCCI</span>
+                    <span class="product__description">Bloom</span>
+                    <label for="Product__color1"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                    <span class="product__price">R <strong class="item__price">1599</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+
+                <article class="product">
+                    <div class="product__sale">SALE</div>
+                    <img src="Img/NARCISO_RODRIGUEZ___Narciso_Ambrée_-_Eau_de_Parfum-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">NARCISO</span>
+                    <span class="product__description">Eau de parfum ambreé</span>
+                    <label for="Product__color"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                    <span class="product__price">R <strong class="item__price">1890</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+
+                <article class="product">
+                    <div class="product__sale">SALE</div>
+                    <img src="Img/Narciso eau de parfum.png" alt="" class="product__img">
+                    <span class="product__name">NARCISO</span>
+                    <span class="product__description">Eau de parfum poudrée</span>
+                    <label for="Product__color"></label>
+                    <select class="product__color1" id="product-color" >
+                    </select>
+                    <span class="product__price">R <strong class="item__price">1699</strong></span>
+                    <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt"></i></span>
+                </article>
+        
+            </div>
+        </section>
+
+        <!--MAKEUP-->
+        <section class="makeup section" id="makeup">
+            <h2 class="section-title">MAKEUP</h2>
+
+            <div class="makeup__container bd-grid">
+                <article class="product">
+                    <img src="Headers/Makeup/Face-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">FACE</span>
+                    <a href="/makeup#face" class="button2">Shop Now</a> 
+                </article>
+
+                <article class="product">
+                    <img src="Headers/Makeup/Eyes-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">EYES</span>
+                    <a href="/makeup#eyes" class="button2">Shop Now</a> 
+                </article>
+
+                <article class="product">
+                    <img src="Headers/Makeup/Lips-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">LIPS</span>
+                    <a href="/makeup#lips" class="button2">Shop Now</a> 
+                </article>
+
+                <article class="product">
+                    <img src="Headers/Makeup/Tools-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">MAKEUP BRUSHES AND TOOLS</span>
+                    <a href="/makeup#makeuptools" class="button2">Shop Now</a> 
+                </article>
+            </div>
+        </section>
+
+
+        <!--COLLECTION-->
+        
+        <section class="collection section">
+            <div class="collection__container bd-grid">
+
+                <div class="collection__card">
+                    <div class="collection__data">
+                        <h3 class="collection__name">Fenty Beauty</h3>
+                        <p class="collection__description">New Collection 2021</p>
+                        <a href="#" class="button-light">Buy Now <i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                    <img src="Headers/Banners/Collections/Fenty_Beauty_Anniversary_Collection-removebg-preview.png" alt="" class="collection__img">
+                </div>
+
+                <div class="collection__card">
+                    <div class="collection__data">
+                        <h3 class="collection__name">Pat Macgrath</h3>
+                        <p class="collection__description">New Collection 2021</p>
+                        <a href="#" class="button-light">Buy Now <i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                    <img src="Headers/Banners/Collections/Pat_McGrath_Sublime_Perfection_Foundation__Primer__Setting_Powder_Launches_Today-removebg-preview.png" alt="" class="collection__img">
+                </div>
+
+            </div>
+        </section>
+
+        <!--SKINCARE-->
+        <section class="skincare section" id="skincare">
+            <h2 class="section-title">SKINCARE</h2>
+
+            <div class="skincare__container bd-grid">
+                <article class="product">
+                    <img src="Headers/SkinCare/Cleanser-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">CLEANSER</span>
+                    <a href="/skincare#cleansers" class="button2">Buy Now</a> 
+                </article>
+
+                <article class="product">
+                    <img src="Headers/SkinCare/Moisturiser-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">MOISTURISER</span>
+                    <a href="/skincare#moisturisers" class="button2">Buy Now</a> 
+                </article>
+
+                <article class="product">
+                    <img src="Headers/SkinCare/serum_and_treatment-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">SERUM AND MOISTURISER</span>
+                    <a href="/skincare#treatment" class="button2">Buy Now</a> 
+                </article>
+
+                <article class="product">
+                    <img src="Headers/SkinCare/TCC_foto_s3_1000x1000__1_-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">SKINCARE TOOLS</span>
+                    <a href="/skincare#skincaretools" class="button2">Buy Now</a> 
+                </article>
+            </div>
+        </section>
+
+        <!--HAIRCARE-->
+        <section class="haircare section" id="haircare">
+            <h2 class="section-title">HAIRCARE</h2>
+
+            <div class="haircare__container bd-grid">
+                <article class="product">
+                    <img src="Headers/HairCare/shampoo_and_conditioner2-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">SHAMPOO AND CONDITIONER</span>
+                    <a href="/haircare#shampoo" class="button2">Buy Now</a> 
+                </article>
+
+                <article class="product">
+                    <img src="Headers/HairCare/Styling_Products-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">STYLING PRODUCTS</span>
+                    <a href="/haircare#styling" class="button2">Buy Now</a> 
+                </article>
+
+                <article class="product">
+                    <img src="Headers/HairCare/Tools-removebg-preview.png" alt="" class="product__img">
+                    <span class="product__name">HAIRCARE TOOLS</span>
+                    <a href="/haircare#hairtools" class="button2">Buy Now</a> 
+                </article>
+
+            </div>
+        </section>
+
+
+         <!--SELFCARE BANNER-->
+         <section class="banner section">
+             <div class="banner__container">
+                 <div class="banner__data">
+                     <h3 class="banner__title">50% OFF SELFCARE NEEDS</h3>
+                     <p class="banner__description">Make sure you make SelfCare Sunday your weekly ritual</p>
+                     <a href="#" class="button">Shop Now</a>
+                 </div>
+
+                 <img src="Headers/Banners/SelfCare/All_Natural_Retinol_Infused_Eye_Mask__10-pack-removebg-preview.png" class="banner__img">
+             </div>
+         </section>
+
+          <!--SUBSCRIPTION BOX-->
+          <section class="newsletter section">
+              <div class="newsletter__container bd-grid">
+                  <div>
+                      <h3 class="newsletter__title"> Subscribe Today And Get <br> 15% OFF</h3>
+                      <p class="newsletter__description">Get 15% accross the site</p>
+                  </div>
+
+                  <form action="" class="newsletter__subscribe" id="newsletter__subscribe">
+                      <input type="email" id="email" placeholder="@email.com" class="newsletter__input">
+                      <a href="" class="button2">Subscribe</a>
+                  </form>
+              </div>
+          </section>
+
+            <!--FOOTER-->
+            <footer class="footer section">
+                <div class="footer__container bd-grid">
+                    <div class="footer__box">
+                        <h3 class="footer__title">Black Girl Supply</h3>
+                        <p class="footer__description">New collection 2021</p>
+                    </div>
+            
+                    <div class="footer__box">
+                        <h3 class="footer__title">EXPLORE</h3>
+                        <ul>
+                            <li><a href="#home" class="footer__link">Home</a></li>
+                            <li><a href="#featured" class="footer__link">Featured</a></li>
+                            <li><a href="#makeup" class="footer__link">MAKEUP</a></li>
+                            <li><a href="#skincare" class="footer__link">SKINCARE</a></li>
+                            <li><a href="#haircare" class="footer__link">HAIRCARE</a></li>
+        
+                        </ul>
+                    </div>
+            
+                    <div class="footer__box">
+                        <h3 class="footer__title">SUPPORT</h3>
+                        <ul>
+                            <li><a href="#contact" class="footer__link">Contact form</a></li>
+                            <li><a href="#login" class="footer__link">Login</a></li>
+                        </ul>
+                    </div>
+            
+                    <div class="footer__box">
+                        <a href="#" class="footer__social"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="footer__social"><i class="bx bxl-instagram-alt"></i></a>
+                        <a href="#" class="footer__social"><i class="bx bxl-twitter" ></i></a>
+                        <a href="#" class="footer__social"><i class="bx bxl-google"></i></a>
+                    </div>
+            
+                </div>
+            
+            
+                <p class="footer__copy">&#169; 2021 Siyabonga Mhlongo, All right reserved</p>
+            </footer>
+
+
+          <!--CART ITEM-->
+        <div class="cart" id="cart">
+
+            <!--HTML TEMPLETE THAT BECOMES JS TEMPLETE-->
+          <!--<div class="cart__item">
+                <img src="Img Cart/LYS foundation.png" class="item__img" id="item-img" alt="">
+                <div class="item__text" id="item-text">
+                    <p class="product__name" id="cart-item-name">Cart Item</p>
+                    <span class="product__description" id="cart-item-description">Black Game Royal</span><br>
+                    <option class="product__value" id="cart-item-value" value="Feminist">Feminist</option>
+                    <input class="product__quantity" id="cart-item-quantity" type="number" value="1">
+                    <span class="product__cartprice">R </span><span class="product__cartprice" id="cart-item-price">1973.94</span>
+                    <span href="#" class="item__remove" id="cart-item-remove"><i class="bx bxs-trash-alt"></i></span>
+              </div>      
+           </div>-->  
+
+       
+          
+
+           <div class="cart-total__container">
+                <span >Total</span>
+                <span>R <strong class="cart__total"id="cart-total">0</strong></span>
+            </div>
+
+    
+            <div class="cart-buttons__container">
+                <a href="#" id="checkout-button" class="checkout__button">Checkout</a>   
+            </div>
+        </div>      
+   
+        </main>
+    
+    <script src="https://js.yoco.com/sdk/v1/yoco-sdk-web.js"></script>
+    <script>
+        var yocoPublicKey = '<%= yocoPublicKey %>'
+    </script>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    
+</body>
+</html>
